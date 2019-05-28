@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom';
 
 //import {CompA, CompB} from './Componentes/DoisComponentes'
 //import CompA from './Componentes/DoisComponentes'
-import CompA, {CompB as B} from './Componentes/DoisComponentes'
+//import CompA, {CompB as B} from './Componentes/DoisComponentes'
+
+import FamiliaSilva from './Componentes/FamiliaSilva'
 
 //import MultiElementos from './Componentes/MultiElementos';
 
@@ -13,12 +15,14 @@ ReactDOM.render(
     <div>
         {/* 
         <PrimeiroComponenteArrow valor="XyZ" /> 
-        */}
+        
         <CompA valor="A" />
         <B valor="B" />        
-        {/*
+        
         <MultiElementos />
         */}
+
+        <FamiliaSilva />
     </div>,
     elemento);
 
