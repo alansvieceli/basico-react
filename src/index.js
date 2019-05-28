@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import PrimeiroComponenteArrow from './Componentes/PrimeiroComponenteArrow'
+//import PrimeiroComponenteArrow from './Componentes/PrimeiroComponente/PrimeiroComponenteArrow'
 
-//import {CompA, CompB} from './Componentes/DoisComponentes'
-//import CompA from './Componentes/DoisComponentes'
-//import CompA, {CompB as B} from './Componentes/DoisComponentes'
+//import {CompA, CompB} from './Componentes/DoisComponentes/DoisComponentes'
+//import CompA from './Componentes/DoisComponentes/DoisComponentes'
+//import CompA, {CompB as B} from './Componentes/DoisComponentes/DoisComponentes'
 
-//import MultiElementos from './Componentes/MultiElementos';
-//import FamiliaSilva from './Componentes/FamiliaSilva'
+//import MultiElementos from './MultiElementos/MultiElementos';
 
-import Familia from './Componentes/Familia'
-import Membro from './Componentes/Membro'
+//import FamiliaSilva from './Componentes/Familia/FamiliaSilva'
+
+import Familia from './Componentes/Familia/Familia'
+import Membro from './Componentes/Membro/Membro'
 
 const elemento = document.getElementById('root');
 ReactDOM.render(

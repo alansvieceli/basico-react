@@ -1,5 +1,5 @@
 import React from 'react'
-import Membro from './Membro'
+import Membro from '../Membro/Membro'
 
 export default (props) => (
     <div>
