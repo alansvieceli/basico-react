@@ -22,13 +22,13 @@ ReactDOM.render(
         <MultiElementos />        
         <FamiliaSilva />
         */}
-        <Familia>
-            <Membro nome="Alan" sobrenome="Vieceli" />
-            <Membro nome="Jaque" sobrenome="Vieceli" />
+        <Familia  sobrenome="Vieceli" >
+            <Membro nome="Alan" />
+            <Membro nome="Jaque" />
         </Familia>
-        <Familia>
-            <Membro nome="Rosa" sobrenome="Silva" />
-            <Membro nome="Graziela" sobrenome="Silva" />
+        <Familia sobrenome="Silva">
+            <Membro nome="Rosa" />
+            <Membro nome="Graziela" />
         </Familia>
     </div>,
     elemento);
