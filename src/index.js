@@ -9,9 +9,10 @@ import ReactDOM from 'react-dom';
 //import MultiElementos from './MultiElementos/MultiElementos';
 
 //import FamiliaSilva from './Componentes/Familia/FamiliaSilva'
-
 //import Familia from './Componentes/Familia/Familia'
 //import Membro from './Componentes/Membro/Membro'
+
+import Pai from './Componentes/Comunicacao/Pai'
 
 import ComponenteComFuncao from './Componentes/ComponenteComFuncao/ComponenteComFuncao'
 
@@ -32,9 +33,11 @@ ReactDOM.render(
             <Membro nome="Rosa" />
             <Membro nome="Graziela" />
         </Familia>
-        */}
+        
 
         <ComponenteComFuncao />
+        */}
+        <Pai />
     </div>,
     elemento);
 
