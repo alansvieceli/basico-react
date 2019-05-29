@@ -12,9 +12,11 @@ import ReactDOM from 'react-dom';
 //import Familia from './Componentes/Familia/Familia'
 //import Membro from './Componentes/Membro/Membro'
 
-import Pai from './Componentes/Comunicacao/Pai'
+//import Pai from './Componentes/Comunicacao/Pai'
 
-import ComponenteComFuncao from './Componentes/ComponenteComFuncao/ComponenteComFuncao'
+//import ComponenteComFuncao from './Componentes/ComponenteComFuncao/ComponenteComFuncao'
+
+import ComonenteClasse from './Componentes/ComponenteClasse/ComponenteClasse'
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -36,8 +38,11 @@ ReactDOM.render(
         
 
         <ComponenteComFuncao />
-        */}
+        
         <Pai />
+        */}
+
+        <ComonenteClasse valor="Contador" numero={0} />
     </div>,
     elemento);
 
