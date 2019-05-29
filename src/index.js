@@ -16,7 +16,9 @@ import ReactDOM from 'react-dom';
 
 //import ComponenteComFuncao from './Componentes/ComponenteComFuncao/ComponenteComFuncao'
 
-import ComonenteClasse from './Componentes/ComponenteClasse/ComponenteClasse'
+//import ComonenteClasse from './Componentes/ComponenteClasse/ComponenteClasse'
+
+import Hook from './Componentes/Hook/Hook'
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -39,10 +41,12 @@ ReactDOM.render(
 
         <ComponenteComFuncao />
         
-        <Pai />
-        */}
+        <Pai />       
 
         <ComonenteClasse valor="Contador" numero={0} />
+        */}
+
+        <Hook />
     </div>,
     elemento);
 
